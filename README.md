@@ -4,6 +4,8 @@ This project implements simple linear regression in Python without using machine
 
 It trains a model on housing data to learn the relationship between **area** and **price** using **gradient descent**, then evaluates the model on a train-test split.
 
+The purpose was simply to implement the gradient descent algorithm for better understanding. It results in a weak correlation as only area was used to generalise predictions for price. Can be used with other data as well.
+
 ## Features
 
 - data preprocessing with pandas
